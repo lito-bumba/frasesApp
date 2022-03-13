@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/retangulo_frase"
+    android:padding="16dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <com.codesgood.views.JustifiedTextView
+        android:id="@+id/txtFrase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="Os que são loucos o suficiente para pensar que podem ffd f mudar o mundo, são os que fazem fdff" />
+
+    <TextView
+        android:id="@+id/txtAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="~Steve Jobs"
+        android:paddingRight="10dp"
+        android:layout_below="@id/txtFrase"
+        android:layout_alignParentStart="true"/>
+
+    <ImageView
+        android:id="@+id/ivFavorita"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_baseline_favorite_border_24_azul"
+        android:layout_below="@+id/txtFrase"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+
+        <item
+            android:id="@+id/fragmentoPrincipal"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Principal" />
+
+        <item
+            android:id="@+id/fragmentoAutor"
+            android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+            android:title="Autores" />
+
+        <item
+            android:id="@+id/fragmentoCategoria"
+            android:icon="@drawable/ic_baseline_grain_24"
+            android:title="Categorias" />
+
+    </group>
+
+    <item android:title="Frase">
+        <menu>
+            <item
+                android:id="@+id/fragmentoSortearFrase"
+                android:icon="@drawable/ic_gerar"
+                android:title="Sortear" />
+            <item
+                android:id="@+id/fragmentoFavoritas"
+                android:icon="@drawable/ic_baseline_favorite_24"
+                android:title="Favoritas" />
+            <item
+                android:id="@+id/fragmentoMinhaFrase"
+                android:icon="@drawable/ic_baseline_post_add_24"
+                android:title="Minha Frase" />
+        </menu>
+    </item>
+
+    <item android:title="Aplicação">
+        <menu>
+            <item
+                android:id="@+id/menuDrawer_Compartilhar"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:title="Compartilhar" />
+            <item
+                android:id="@+id/fragmentoSobre"
+                android:title="Sobre" />
+        </menu>
+    </item>
+</menu>

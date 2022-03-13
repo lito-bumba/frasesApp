@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "755870021181",
+    "project_id": "frasesapp-c13da",
+    "storage_bucket": "frasesapp-c13da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755870021181:android:4711110f93f1771dc5dc54",
+        "android_client_info": {
+          "package_name": "com.exemple.android.frasesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755870021181-vcm1gd4ord3c0g2ia35rpbahrbnhj6rn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACPFrGh2m7JBuI4_1YmLechwCSOlrBERc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755870021181-vcm1gd4ord3c0g2ia35rpbahrbnhj6rn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

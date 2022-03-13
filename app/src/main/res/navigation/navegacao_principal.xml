@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navegacao_principal"
+    app:startDestination="@id/fragmentoPrincipal">
+
+    <fragment
+        android:id="@+id/fragmentoPrincipal"
+        android:name="com.exemple.android.frasesapp.ui.fragmentos.FragmentoPrincipal"
+        android:label="FrasesApp">
+        <action
+            android:id="@+id/action_fragmentoPrincipal_to_fragmentoFrase"
+            app:destination="@id/fragmentoFrase" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentoFrase"
+        android:name="com.exemple.android.frasesapp.ui.fragmentos.FragmentoFrase"
+        android:label="FrasesApp">
+        <argument
+            android:name="idFrase"
+            android:defaultValue="0"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentoAutor"
+        android:name="com.exemple.android.frasesapp.ui.fragmentos.FragmentoAutor"
+        android:label="FrasesApp">
+
+        <action
+            android:id="@+id/action_fragmentoAutor_to_fragmentoFrasePorAutor"
+            app:destination="@id/fragmentoFrasePorAutor" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentoCategoria"
+        android:name="com.exemple.android.frasesapp.ui.fragmentos.FragmentoCategoria"
+        android:label="FrasesApp" />
+
+    <fragment
+        android:id="@+id/fragmentoSortearFrase"
+        android:name="com.exemple.android.frasesapp.ui.fragmentos.FragmentoSortearFrase"
+        android:label="FrasesApp" />
+
+    <fragment
+        android:id="@+id/fragmentoFavoritas"
+        android:name="com.exemple.android.frasesapp.ui.fragmentos.FragmentoFavoritas"
+        android:label="FrasesApp" />
+
+    <fragment
+        android:id="@+id/fragmentoMinhaFrase"
+        android:name="com.exemple.android.frasesapp.ui.fragmentos.FragmentoMinhaFrase"
+        android:label="FrasesApp">
+
+        <action
+            android:id="@+id/action_fragmentoMinhaFrase_to_fragmentoPrincipal"
+            app:destination="@id/fragmentoPrincipal" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentoFrasePorAutor"
+        android:name="com.exemple.android.frasesapp.ui.fragmentos.FragmentoFrasePorAutor">
+
+        <argument
+            android:name="autor"
+            app:argType="string"
+            android:defaultValue=""/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentoSobre"
+        android:name="com.exemple.android.frasesapp.ui.fragmentos.FragmentoSobre"
+        android:label="FrasesApp" />
+
+</navigation>

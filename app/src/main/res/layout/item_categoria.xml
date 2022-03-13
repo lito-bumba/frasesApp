@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/radius_categoria"
+    android:padding="6dp"
+    android:layout_margin="4dp">
+
+    <TextView
+        android:id="@+id/tvNomeCategoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome da Categoria"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

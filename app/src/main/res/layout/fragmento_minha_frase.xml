@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fundo"
+    android:gravity="center_vertical"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp">
+
+    <EditText
+        android:id="@+id/etAutor"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/white"
+        android:hint="Nome do Autor da Frase"
+        android:inputType="text"
+        android:lines="1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:ignore="TouchTargetSizeCheck"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"/>
+
+    <EditText
+        android:id="@+id/etFrase"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:hint="Digite a Frase"
+        android:inputType="textMultiLine"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"/>
+
+    <Button
+        android:id="@+id/btnAdicionar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/retangulo_frase"
+        android:text="Adicionar"
+        android:textSize="14sp" />
+
+</LinearLayout>
